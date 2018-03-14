@@ -1,7 +1,7 @@
 //Viết chương trình nhập vào mảng một chiều các số nguyên và xuất ra màn hình các phần tử là số nguyên tố
 function KTNT(a){
-    for(var t = 2; t <= Math.sqrt(arr[i]); t++){
-        if(arr[i] % t == 0){
+    for(var t = 2; t <= Math.sqrt(a); t++){
+        if(a % t == 0){
             return false;
         }
     }
